@@ -37,3 +37,25 @@ The **Screenshots** folder contains:
 ## Deployment Summary
 
 The deployment summary document is included in this repository.
+
+## Key Configurations Performed
+
+- Configured the virtual environment using `venv`.
+- Installed Django and Django REST Framework.
+- Updated the `ALLOWED_HOSTS` setting.
+- Configured the WSGI file to point to the Django project.
+- Applied database migrations.
+- Configured static file handling and reloaded the web application.
+
+## Challenges Faced
+
+- Resolved the `DisallowedHost` error by updating `ALLOWED_HOSTS`.
+- Configured the WSGI file correctly to connect the project.
+- Created a Django superuser for accessing the admin panel.
+
+## Learning Outcomes
+
+- Learned how to deploy a Django application on PythonAnywhere.
+- Gained experience with virtual environments and dependency management.
+- Understood WSGI configuration and database migrations.
+- Learned to troubleshoot deployment issues and verify a live hosted application.
